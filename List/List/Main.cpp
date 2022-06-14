@@ -1,7 +1,6 @@
 // ** ContainerList v0.3
 
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
@@ -58,7 +57,6 @@ List* CreateList(const int _Value)
 
 	return pList;
 }
-
 
 void push_back(List* _Current, const int& _Value)
 {
